@@ -1,0 +1,134 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-bar {
+  background-color: #dbeeff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-bar img {
+  height: 30px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+}
+
+.image-section {
+  flex: 3;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-section img {
+  max-width: 80%;
+  height: auto;
+}
+
+.login-section {
+  flex: 1.2;
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-section h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.login-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section input[type="email"],
+.login-section input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.forgot-password {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.login-btn {
+  padding: 10px;
+  background-color: #649CFF;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.login-btn:hover {
+  background-color: #507cd9;
+}
+
+.register-link {
+  padding: 10px;
+  text-align: center;
+}
+
+.register-link a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #0056b3;
+}
+
+.footer-bar {
+  background-color: white;
+  height: 40px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
