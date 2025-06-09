@@ -19,7 +19,7 @@ public class InicioEncuestadorServlet extends HttpServlet {
         HttpSession session = request.getSession(false);
 
         if (session == null || session.getAttribute("idUsuario") == null ||
-                (int) session.getAttribute("rolId") != 3) {
+                (int) session.getAttribute("idrol") != 3) {
             response.sendRedirect(request.getContextPath() + "/login.jsp");
             return;
         }
@@ -32,7 +32,7 @@ public class InicioEncuestadorServlet extends HttpServlet {
         request.setAttribute("resumenSesiones", resumenSesiones);
         request.setAttribute("nombre", session.getAttribute("nombre"));
         request.setAttribute("idUsuario", session.getAttribute("idUsuario"));
-        request.setAttribute("rolId", session.getAttribute("rolId"));
+        request.setAttribute("idrol", session.getAttribute("idrol"));
 
         request.getRequestDispatcher("inicioEncuestador.jsp").forward(request, response);
     }

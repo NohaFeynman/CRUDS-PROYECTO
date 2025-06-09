@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957267a2-7f58-4272-8d3f-9e8d9867265f" name="Changes" comment="" />
+    <list default="true" id="957267a2-7f58-4272-8d3f-9e8d9867265f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/FormulariosAsignadosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/FormulariosAsignadosServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/GuardarRespuestasServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/GuardarRespuestasServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/HistorialFormulariosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/HistorialFormulariosServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/InicioEncuestadorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/InicioEncuestadorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/ReingresarFormularioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/ReingresarFormularioServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/RespuestaFormularioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webproyecto/servlets/encuestador/RespuestaFormularioServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/inicioEncuestador.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/inicioEncuestador.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +51,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Tomcat Server.Tomcat 10.1.41.executor": "Run",
-    "last_opened_file_path": "C:/iweb/WebProyectoENTREGABLE",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/iweb/WebProyecto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -171,6 +182,7 @@
       <workItem from="1749158690200" duration="2217000" />
       <workItem from="1749164770792" duration="206000" />
       <workItem from="1749165012652" duration="65000" />
+      <workItem from="1749508143799" duration="1444000" />
     </task>
     <servers />
   </component>

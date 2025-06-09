@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
             // Guardar datos esenciales en la sesión
             HttpSession session = request.getSession();
             session.setAttribute("idUsuario", usuario.getIdUsuario());
-            session.setAttribute("rolId", usuario.getIdRol());
+            session.setAttribute("idrol", usuario.getIdRol());
             session.setAttribute("nombre", usuario.getNombre());
             session.setAttribute("apellidopaterno", usuario.getApellidopaterno());
             session.setAttribute("apellidomaterno", usuario.getApellidomaterno());

@@ -13,10 +13,10 @@
 
 <%
     Integer idUsuario = (Integer) session.getAttribute("idUsuario");
-    Integer rolId = (Integer) session.getAttribute("rolId");
+    Integer idrol = (Integer) session.getAttribute("idrol");
     String nombre = (String) session.getAttribute("nombre");
 
-    if (idUsuario == null || rolId == null || rolId != 3) {
+    if (idUsuario == null || idrol == null || idrol != 3) {
         response.sendRedirect("login.jsp");
         return;
     }

@@ -26,7 +26,7 @@ public class GuardarRespuestasServlet extends HttpServlet {
         HttpSession session = request.getSession(false);
 
         if (session == null || session.getAttribute("idUsuario") == null ||
-                (int) session.getAttribute("rolId") != 3) {
+                (int) session.getAttribute("idrol") != 3) {
             response.sendRedirect("login.jsp");
             return;
         }
